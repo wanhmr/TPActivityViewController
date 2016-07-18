@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F01D9E421D3D31090011202A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E411D3D31090011202A /* main.m */; };
+		F01D9E451D3D31090011202A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E441D3D31090011202A /* AppDelegate.m */; };
+		F01D9E481D3D31090011202A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E471D3D31090011202A /* ViewController.m */; };
+		F01D9E4B1D3D31090011202A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01D9E491D3D31090011202A /* Main.storyboard */; };
+		F01D9E4D1D3D31090011202A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01D9E4C1D3D31090011202A /* Assets.xcassets */; };
+		F01D9E501D3D31090011202A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01D9E4E1D3D31090011202A /* LaunchScreen.storyboard */; };
+		F01D9E5B1D3D31090011202A /* TPActivityViewControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E5A1D3D31090011202A /* TPActivityViewControllerExampleTests.m */; };
+		F01D9E661D3D31090011202A /* TPActivityViewControllerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E651D3D31090011202A /* TPActivityViewControllerExampleUITests.m */; };
+		F01D9E931D3D31180011202A /* TPActivityPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E751D3D31180011202A /* TPActivityPresentationController.m */; };
+		F01D9E941D3D31180011202A /* TPActivitytViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E771D3D31180011202A /* TPActivitytViewCell.m */; };
+		F01D9E951D3D31180011202A /* TPActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E791D3D31180011202A /* TPActivityView.m */; };
+		F01D9E961D3D31180011202A /* TPActivityViewActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E7B1D3D31180011202A /* TPActivityViewActionCell.m */; };
+		F01D9E971D3D31180011202A /* TPActivityViewActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E7D1D3D31180011202A /* TPActivityViewActivityCell.m */; };
+		F01D9E981D3D31180011202A /* TPActivityViewActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01D9E7E1D3D31180011202A /* TPActivityViewActivityCell.xib */; };
+		F01D9E991D3D31180011202A /* TPActivityViewActivityItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E801D3D31180011202A /* TPActivityViewActivityItemsCell.m */; };
+		F01D9E9A1D3D31180011202A /* TPActivityViewCollectionViewHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E821D3D31180011202A /* TPActivityViewCollectionViewHorizontalFlowLayout.m */; };
+		F01D9E9B1D3D31180011202A /* TPActivityViewCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E841D3D31180011202A /* TPActivityViewCollectionViewLayoutAttributes.m */; };
+		F01D9E9C1D3D31180011202A /* TPActivityViewCollectionViewVerticalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E861D3D31180011202A /* TPActivityViewCollectionViewVerticalFlowLayout.m */; };
+		F01D9E9D1D3D31180011202A /* TPActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E881D3D31180011202A /* TPActivityViewController.m */; };
+		F01D9E9E1D3D31180011202A /* TPActivityViewSeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E8A1D3D31180011202A /* TPActivityViewSeparatorCell.m */; };
+		F01D9E9F1D3D31180011202A /* TPActivityViewTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E8C1D3D31180011202A /* TPActivityViewTheme.m */; };
+		F01D9EA01D3D31180011202A /* TPActivityViewTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E8E1D3D31180011202A /* TPActivityViewTitleCell.m */; };
+		F01D9EA11D3D31180011202A /* UIActivity+TPActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E901D3D31180011202A /* UIActivity+TPActivity.m */; };
+		F01D9EA21D3D31180011202A /* UIViewController+TPActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9E921D3D31180011202A /* UIViewController+TPActivity.m */; };
+		F01D9EA51D3D316F0011202A /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9EA41D3D316F0011202A /* TOActivitySafari.m */; };
+		F01D9EA81D3D32AB0011202A /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9EA71D3D32AB0011202A /* UIImage+TOWebViewControllerIcons.m */; };
+		F01D9EAB1D3D32B70011202A /* QLRefreshActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D9EAA1D3D32B70011202A /* QLRefreshActivity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F01D9E571D3D31090011202A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01D9E351D3D31090011202A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01D9E3C1D3D31090011202A;
+			remoteInfo = TPActivityViewControllerExample;
+		};
+		F01D9E621D3D31090011202A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01D9E351D3D31090011202A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01D9E3C1D3D31090011202A;
+			remoteInfo = TPActivityViewControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F01D9E3D1D3D31090011202A /* TPActivityViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPActivityViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01D9E411D3D31090011202A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F01D9E431D3D31090011202A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F01D9E441D3D31090011202A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F01D9E461D3D31090011202A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F01D9E471D3D31090011202A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F01D9E4A1D3D31090011202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F01D9E4C1D3D31090011202A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F01D9E4F1D3D31090011202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F01D9E511D3D31090011202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01D9E561D3D31090011202A /* TPActivityViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPActivityViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01D9E5A1D3D31090011202A /* TPActivityViewControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewControllerExampleTests.m; sourceTree = "<group>"; };
+		F01D9E5C1D3D31090011202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01D9E611D3D31090011202A /* TPActivityViewControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPActivityViewControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01D9E651D3D31090011202A /* TPActivityViewControllerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewControllerExampleUITests.m; sourceTree = "<group>"; };
+		F01D9E671D3D31090011202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01D9E741D3D31180011202A /* TPActivityPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityPresentationController.h; sourceTree = "<group>"; };
+		F01D9E751D3D31180011202A /* TPActivityPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityPresentationController.m; sourceTree = "<group>"; };
+		F01D9E761D3D31180011202A /* TPActivitytViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivitytViewCell.h; sourceTree = "<group>"; };
+		F01D9E771D3D31180011202A /* TPActivitytViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivitytViewCell.m; sourceTree = "<group>"; };
+		F01D9E781D3D31180011202A /* TPActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityView.h; sourceTree = "<group>"; };
+		F01D9E791D3D31180011202A /* TPActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityView.m; sourceTree = "<group>"; };
+		F01D9E7A1D3D31180011202A /* TPActivityViewActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewActionCell.h; sourceTree = "<group>"; };
+		F01D9E7B1D3D31180011202A /* TPActivityViewActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewActionCell.m; sourceTree = "<group>"; };
+		F01D9E7C1D3D31180011202A /* TPActivityViewActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewActivityCell.h; sourceTree = "<group>"; };
+		F01D9E7D1D3D31180011202A /* TPActivityViewActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewActivityCell.m; sourceTree = "<group>"; };
+		F01D9E7E1D3D31180011202A /* TPActivityViewActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPActivityViewActivityCell.xib; sourceTree = "<group>"; };
+		F01D9E7F1D3D31180011202A /* TPActivityViewActivityItemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewActivityItemsCell.h; sourceTree = "<group>"; };
+		F01D9E801D3D31180011202A /* TPActivityViewActivityItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewActivityItemsCell.m; sourceTree = "<group>"; };
+		F01D9E811D3D31180011202A /* TPActivityViewCollectionViewHorizontalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewCollectionViewHorizontalFlowLayout.h; sourceTree = "<group>"; };
+		F01D9E821D3D31180011202A /* TPActivityViewCollectionViewHorizontalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewCollectionViewHorizontalFlowLayout.m; sourceTree = "<group>"; };
+		F01D9E831D3D31180011202A /* TPActivityViewCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		F01D9E841D3D31180011202A /* TPActivityViewCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		F01D9E851D3D31180011202A /* TPActivityViewCollectionViewVerticalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewCollectionViewVerticalFlowLayout.h; sourceTree = "<group>"; };
+		F01D9E861D3D31180011202A /* TPActivityViewCollectionViewVerticalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewCollectionViewVerticalFlowLayout.m; sourceTree = "<group>"; };
+		F01D9E871D3D31180011202A /* TPActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewController.h; sourceTree = "<group>"; };
+		F01D9E881D3D31180011202A /* TPActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewController.m; sourceTree = "<group>"; };
+		F01D9E891D3D31180011202A /* TPActivityViewSeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewSeparatorCell.h; sourceTree = "<group>"; };
+		F01D9E8A1D3D31180011202A /* TPActivityViewSeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewSeparatorCell.m; sourceTree = "<group>"; };
+		F01D9E8B1D3D31180011202A /* TPActivityViewTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewTheme.h; sourceTree = "<group>"; };
+		F01D9E8C1D3D31180011202A /* TPActivityViewTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewTheme.m; sourceTree = "<group>"; };
+		F01D9E8D1D3D31180011202A /* TPActivityViewTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPActivityViewTitleCell.h; sourceTree = "<group>"; };
+		F01D9E8E1D3D31180011202A /* TPActivityViewTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPActivityViewTitleCell.m; sourceTree = "<group>"; };
+		F01D9E8F1D3D31180011202A /* UIActivity+TPActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivity+TPActivity.h"; sourceTree = "<group>"; };
+		F01D9E901D3D31180011202A /* UIActivity+TPActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivity+TPActivity.m"; sourceTree = "<group>"; };
+		F01D9E911D3D31180011202A /* UIViewController+TPActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TPActivity.h"; sourceTree = "<group>"; };
+		F01D9E921D3D31180011202A /* UIViewController+TPActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TPActivity.m"; sourceTree = "<group>"; };
+		F01D9EA31D3D316F0011202A /* TOActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivitySafari.h; sourceTree = "<group>"; };
+		F01D9EA41D3D316F0011202A /* TOActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivitySafari.m; sourceTree = "<group>"; };
+		F01D9EA61D3D32AB0011202A /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		F01D9EA71D3D32AB0011202A /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		F01D9EA91D3D32B70011202A /* QLRefreshActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLRefreshActivity.h; sourceTree = "<group>"; };
+		F01D9EAA1D3D32B70011202A /* QLRefreshActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLRefreshActivity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01D9E3A1D3D31090011202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01D9E531D3D31090011202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01D9E5E1D3D31090011202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F01D9E341D3D31090011202A = {
+			isa = PBXGroup;
+			children = (
+				F01D9E731D3D31180011202A /* TPActivityViewController */,
+				F01D9E3F1D3D31090011202A /* TPActivityViewControllerExample */,
+				F01D9E591D3D31090011202A /* TPActivityViewControllerExampleTests */,
+				F01D9E641D3D31090011202A /* TPActivityViewControllerExampleUITests */,
+				F01D9E3E1D3D31090011202A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F01D9E3E1D3D31090011202A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01D9E3D1D3D31090011202A /* TPActivityViewControllerExample.app */,
+				F01D9E561D3D31090011202A /* TPActivityViewControllerExampleTests.xctest */,
+				F01D9E611D3D31090011202A /* TPActivityViewControllerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F01D9E3F1D3D31090011202A /* TPActivityViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				F01D9EA61D3D32AB0011202A /* UIImage+TOWebViewControllerIcons.h */,
+				F01D9EA71D3D32AB0011202A /* UIImage+TOWebViewControllerIcons.m */,
+				F01D9EA91D3D32B70011202A /* QLRefreshActivity.h */,
+				F01D9EAA1D3D32B70011202A /* QLRefreshActivity.m */,
+				F01D9EA31D3D316F0011202A /* TOActivitySafari.h */,
+				F01D9EA41D3D316F0011202A /* TOActivitySafari.m */,
+				F01D9E431D3D31090011202A /* AppDelegate.h */,
+				F01D9E441D3D31090011202A /* AppDelegate.m */,
+				F01D9E461D3D31090011202A /* ViewController.h */,
+				F01D9E471D3D31090011202A /* ViewController.m */,
+				F01D9E491D3D31090011202A /* Main.storyboard */,
+				F01D9E4C1D3D31090011202A /* Assets.xcassets */,
+				F01D9E4E1D3D31090011202A /* LaunchScreen.storyboard */,
+				F01D9E511D3D31090011202A /* Info.plist */,
+				F01D9E401D3D31090011202A /* Supporting Files */,
+			);
+			path = TPActivityViewControllerExample;
+			sourceTree = "<group>";
+		};
+		F01D9E401D3D31090011202A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F01D9E411D3D31090011202A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F01D9E591D3D31090011202A /* TPActivityViewControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F01D9E5A1D3D31090011202A /* TPActivityViewControllerExampleTests.m */,
+				F01D9E5C1D3D31090011202A /* Info.plist */,
+			);
+			path = TPActivityViewControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		F01D9E641D3D31090011202A /* TPActivityViewControllerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F01D9E651D3D31090011202A /* TPActivityViewControllerExampleUITests.m */,
+				F01D9E671D3D31090011202A /* Info.plist */,
+			);
+			path = TPActivityViewControllerExampleUITests;
+			sourceTree = "<group>";
+		};
+		F01D9E731D3D31180011202A /* TPActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F01D9E741D3D31180011202A /* TPActivityPresentationController.h */,
+				F01D9E751D3D31180011202A /* TPActivityPresentationController.m */,
+				F01D9E761D3D31180011202A /* TPActivitytViewCell.h */,
+				F01D9E771D3D31180011202A /* TPActivitytViewCell.m */,
+				F01D9E781D3D31180011202A /* TPActivityView.h */,
+				F01D9E791D3D31180011202A /* TPActivityView.m */,
+				F01D9E7A1D3D31180011202A /* TPActivityViewActionCell.h */,
+				F01D9E7B1D3D31180011202A /* TPActivityViewActionCell.m */,
+				F01D9E7C1D3D31180011202A /* TPActivityViewActivityCell.h */,
+				F01D9E7D1D3D31180011202A /* TPActivityViewActivityCell.m */,
+				F01D9E7E1D3D31180011202A /* TPActivityViewActivityCell.xib */,
+				F01D9E7F1D3D31180011202A /* TPActivityViewActivityItemsCell.h */,
+				F01D9E801D3D31180011202A /* TPActivityViewActivityItemsCell.m */,
+				F01D9E811D3D31180011202A /* TPActivityViewCollectionViewHorizontalFlowLayout.h */,
+				F01D9E821D3D31180011202A /* TPActivityViewCollectionViewHorizontalFlowLayout.m */,
+				F01D9E831D3D31180011202A /* TPActivityViewCollectionViewLayoutAttributes.h */,
+				F01D9E841D3D31180011202A /* TPActivityViewCollectionViewLayoutAttributes.m */,
+				F01D9E851D3D31180011202A /* TPActivityViewCollectionViewVerticalFlowLayout.h */,
+				F01D9E861D3D31180011202A /* TPActivityViewCollectionViewVerticalFlowLayout.m */,
+				F01D9E871D3D31180011202A /* TPActivityViewController.h */,
+				F01D9E881D3D31180011202A /* TPActivityViewController.m */,
+				F01D9E891D3D31180011202A /* TPActivityViewSeparatorCell.h */,
+				F01D9E8A1D3D31180011202A /* TPActivityViewSeparatorCell.m */,
+				F01D9E8B1D3D31180011202A /* TPActivityViewTheme.h */,
+				F01D9E8C1D3D31180011202A /* TPActivityViewTheme.m */,
+				F01D9E8D1D3D31180011202A /* TPActivityViewTitleCell.h */,
+				F01D9E8E1D3D31180011202A /* TPActivityViewTitleCell.m */,
+				F01D9E8F1D3D31180011202A /* UIActivity+TPActivity.h */,
+				F01D9E901D3D31180011202A /* UIActivity+TPActivity.m */,
+				F01D9E911D3D31180011202A /* UIViewController+TPActivity.h */,
+				F01D9E921D3D31180011202A /* UIViewController+TPActivity.m */,
+			);
+			path = TPActivityViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01D9E3C1D3D31090011202A /* TPActivityViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01D9E6A1D3D31090011202A /* Build configuration list for PBXNativeTarget "TPActivityViewControllerExample" */;
+			buildPhases = (
+				F01D9E391D3D31090011202A /* Sources */,
+				F01D9E3A1D3D31090011202A /* Frameworks */,
+				F01D9E3B1D3D31090011202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPActivityViewControllerExample;
+			productName = TPActivityViewControllerExample;
+			productReference = F01D9E3D1D3D31090011202A /* TPActivityViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F01D9E551D3D31090011202A /* TPActivityViewControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01D9E6D1D3D31090011202A /* Build configuration list for PBXNativeTarget "TPActivityViewControllerExampleTests" */;
+			buildPhases = (
+				F01D9E521D3D31090011202A /* Sources */,
+				F01D9E531D3D31090011202A /* Frameworks */,
+				F01D9E541D3D31090011202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01D9E581D3D31090011202A /* PBXTargetDependency */,
+			);
+			name = TPActivityViewControllerExampleTests;
+			productName = TPActivityViewControllerExampleTests;
+			productReference = F01D9E561D3D31090011202A /* TPActivityViewControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F01D9E601D3D31090011202A /* TPActivityViewControllerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01D9E701D3D31090011202A /* Build configuration list for PBXNativeTarget "TPActivityViewControllerExampleUITests" */;
+			buildPhases = (
+				F01D9E5D1D3D31090011202A /* Sources */,
+				F01D9E5E1D3D31090011202A /* Frameworks */,
+				F01D9E5F1D3D31090011202A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01D9E631D3D31090011202A /* PBXTargetDependency */,
+			);
+			name = TPActivityViewControllerExampleUITests;
+			productName = TPActivityViewControllerExampleUITests;
+			productReference = F01D9E611D3D31090011202A /* TPActivityViewControllerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F01D9E351D3D31090011202A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qlchat;
+				TargetAttributes = {
+					F01D9E3C1D3D31090011202A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F01D9E551D3D31090011202A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F01D9E3C1D3D31090011202A;
+					};
+					F01D9E601D3D31090011202A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F01D9E3C1D3D31090011202A;
+					};
+				};
+			};
+			buildConfigurationList = F01D9E381D3D31090011202A /* Build configuration list for PBXProject "TPActivityViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F01D9E341D3D31090011202A;
+			productRefGroup = F01D9E3E1D3D31090011202A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01D9E3C1D3D31090011202A /* TPActivityViewControllerExample */,
+				F01D9E551D3D31090011202A /* TPActivityViewControllerExampleTests */,
+				F01D9E601D3D31090011202A /* TPActivityViewControllerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01D9E3B1D3D31090011202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01D9E981D3D31180011202A /* TPActivityViewActivityCell.xib in Resources */,
+				F01D9E501D3D31090011202A /* LaunchScreen.storyboard in Resources */,
+				F01D9E4D1D3D31090011202A /* Assets.xcassets in Resources */,
+				F01D9E4B1D3D31090011202A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01D9E541D3D31090011202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01D9E5F1D3D31090011202A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01D9E391D3D31090011202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01D9E9A1D3D31180011202A /* TPActivityViewCollectionViewHorizontalFlowLayout.m in Sources */,
+				F01D9EA81D3D32AB0011202A /* UIImage+TOWebViewControllerIcons.m in Sources */,
+				F01D9E9E1D3D31180011202A /* TPActivityViewSeparatorCell.m in Sources */,
+				F01D9EA01D3D31180011202A /* TPActivityViewTitleCell.m in Sources */,
+				F01D9E971D3D31180011202A /* TPActivityViewActivityCell.m in Sources */,
+				F01D9E481D3D31090011202A /* ViewController.m in Sources */,
+				F01D9EA21D3D31180011202A /* UIViewController+TPActivity.m in Sources */,
+				F01D9E451D3D31090011202A /* AppDelegate.m in Sources */,
+				F01D9E931D3D31180011202A /* TPActivityPresentationController.m in Sources */,
+				F01D9EAB1D3D32B70011202A /* QLRefreshActivity.m in Sources */,
+				F01D9E9F1D3D31180011202A /* TPActivityViewTheme.m in Sources */,
+				F01D9E961D3D31180011202A /* TPActivityViewActionCell.m in Sources */,
+				F01D9E9C1D3D31180011202A /* TPActivityViewCollectionViewVerticalFlowLayout.m in Sources */,
+				F01D9EA51D3D316F0011202A /* TOActivitySafari.m in Sources */,
+				F01D9E421D3D31090011202A /* main.m in Sources */,
+				F01D9E941D3D31180011202A /* TPActivitytViewCell.m in Sources */,
+				F01D9E951D3D31180011202A /* TPActivityView.m in Sources */,
+				F01D9E9D1D3D31180011202A /* TPActivityViewController.m in Sources */,
+				F01D9EA11D3D31180011202A /* UIActivity+TPActivity.m in Sources */,
+				F01D9E9B1D3D31180011202A /* TPActivityViewCollectionViewLayoutAttributes.m in Sources */,
+				F01D9E991D3D31180011202A /* TPActivityViewActivityItemsCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01D9E521D3D31090011202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01D9E5B1D3D31090011202A /* TPActivityViewControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01D9E5D1D3D31090011202A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01D9E661D3D31090011202A /* TPActivityViewControllerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F01D9E581D3D31090011202A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01D9E3C1D3D31090011202A /* TPActivityViewControllerExample */;
+			targetProxy = F01D9E571D3D31090011202A /* PBXContainerItemProxy */;
+		};
+		F01D9E631D3D31090011202A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01D9E3C1D3D31090011202A /* TPActivityViewControllerExample */;
+			targetProxy = F01D9E621D3D31090011202A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F01D9E491D3D31090011202A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01D9E4A1D3D31090011202A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F01D9E4E1D3D31090011202A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01D9E4F1D3D31090011202A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F01D9E681D3D31090011202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F01D9E691D3D31090011202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F01D9E6B1D3D31090011202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TPActivityViewControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.qlchat.com.TPActivityViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F01D9E6C1D3D31090011202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TPActivityViewControllerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.qlchat.com.TPActivityViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F01D9E6E1D3D31090011202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TPActivityViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.qlchat.com.TPActivityViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPActivityViewControllerExample.app/TPActivityViewControllerExample";
+			};
+			name = Debug;
+		};
+		F01D9E6F1D3D31090011202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TPActivityViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.qlchat.com.TPActivityViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPActivityViewControllerExample.app/TPActivityViewControllerExample";
+			};
+			name = Release;
+		};
+		F01D9E711D3D31090011202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TPActivityViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.qlchat.com.TPActivityViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TPActivityViewControllerExample;
+			};
+			name = Debug;
+		};
+		F01D9E721D3D31090011202A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TPActivityViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.qlchat.com.TPActivityViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TPActivityViewControllerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01D9E381D3D31090011202A /* Build configuration list for PBXProject "TPActivityViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01D9E681D3D31090011202A /* Debug */,
+				F01D9E691D3D31090011202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01D9E6A1D3D31090011202A /* Build configuration list for PBXNativeTarget "TPActivityViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01D9E6B1D3D31090011202A /* Debug */,
+				F01D9E6C1D3D31090011202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F01D9E6D1D3D31090011202A /* Build configuration list for PBXNativeTarget "TPActivityViewControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01D9E6E1D3D31090011202A /* Debug */,
+				F01D9E6F1D3D31090011202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F01D9E701D3D31090011202A /* Build configuration list for PBXNativeTarget "TPActivityViewControllerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01D9E711D3D31090011202A /* Debug */,
+				F01D9E721D3D31090011202A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F01D9E351D3D31090011202A /* Project object */;
+}
